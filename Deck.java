@@ -17,6 +17,11 @@ public class Deck {
         }
     }
 
+
+    public void removeCard(int index){
+        this.cards.remove(index);
+    }
+
 	public ArrayList<Card> getCards() {
 		return cards;
 	}
